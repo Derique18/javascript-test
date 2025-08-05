@@ -18,7 +18,7 @@
 let functions;
 if (typeof require !== 'undefined') {
     // Node.js environment
-    functions = require('./calculation-functions-exercise.js');
+    functions = require('./calculation-function.js');
 } else {
     // Browser environment
     functions = window.CalculationFunctions;
